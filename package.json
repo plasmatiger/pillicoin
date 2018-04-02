@@ -1,0 +1,31 @@
+{
+  "name": "pillicoin",
+  "version": "1.0.8",
+  "description": "A cryptocurrency for Ebot",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pillipoin": "bin/wallet.js",
+    "pillicoin-node": "bin/node.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plasmatiger/pillicoin.git"
+  },
+  "keywords": [],
+  "author": "Akshat Anand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plasmatiger/pillicoin/issues"
+  },
+  "homepage": "https://github.com/plasmatiger/pillicoin#readme",
+  "dependencies": {
+    "coins": "^2.2.4",
+    "lotion": "^0.1.11",
+    "mkdirp": "^0.5.1"
+  }
+}
